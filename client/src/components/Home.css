@@ -1,0 +1,41 @@
+.home__image {
+  object-fit: contain;
+  height: 200px;
+}
+
+.home__main {
+  padding: 20px;
+}
+.card-title {
+  text-transform: capitalize;
+}
+
+.home__container {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.home__categories {
+  padding-right: 10px;
+  flex: 0 0 20%;
+}
+
+.home__products {
+  flex: 1;
+  overflow: scroll;
+}
+
+.home__categories_title {
+  background-color: gray;
+  color: white;
+  padding: 3px 0;
+  text-align: center;
+}
+
+.teal {
+  color: white;
+}
